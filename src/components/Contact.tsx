@@ -12,7 +12,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-24 md:py-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-mesh" />
-      <div <div className="container relative px-4 sm:px-6">>
+      <div className="container relative px-4 sm:px-6">>
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
