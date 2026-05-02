@@ -12,13 +12,13 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-24 md:py-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-mesh" />
-      <div className="container relative">
+      <div <div className="container relative px-4 sm:px-6">>
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="relative max-w-5xl mx-auto rounded-[2.5rem] bg-gradient-hero p-10 md:p-16 shadow-elevated overflow-hidden"
+          className="relative max-w-5xl mx-auto rounded-3xl bg-gradient-hero px-5 py-8 sm:px-8 md:px-16 md:py-16 shadow-elevated overflow-hidden"
         >
           <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
           <div className="absolute bottom-0 left-0 w-72 h-72 bg-accent/30 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -26,10 +26,10 @@ export const Contact = () => {
           <div className="relative grid lg:grid-cols-2 gap-12 items-center text-primary-foreground">
             <div>
               <div className="text-sm font-semibold uppercase tracking-widest opacity-90 mb-4">Connect</div>
-              <h2 className="font-display text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+              <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
                 Partner with us to build the future of healthcare.
               </h2>
-              <p className="text-lg opacity-90 mb-8 leading-relaxed">
+              <p className="text-lg opacity-90 mb-8 leading-relaxed"
                 We're always open to conversations with investors, providers, and partners who share our vision.
               </p>
               <Button variant="onPrimary" size="xl" asChild>
