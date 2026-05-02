@@ -29,7 +29,7 @@ export const Contact = () => {
               <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
                 Partner with us to build the future of healthcare.
               </h2>
-              <p className="text-lg opacity-90 mb-8 leading-relaxed"
+              <p className="text-lg opacity-90 mb-8 leading-relaxed">
                 We're always open to conversations with investors, providers, and partners who share our vision.
               </p>
               <Button variant="onPrimary" size="xl" asChild>
