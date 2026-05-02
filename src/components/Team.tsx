@@ -8,8 +8,7 @@ import ayushImg from "@/assets/team-ayush.png";
 const team = [
   { name: "Mainak Chakraborty", role: "Founder & CEO", image: mainakImg },
   { name: "Mandar Magar", role: "Co-Founder", image: mandarImg },
-  { name: "Bhumi Changlani", role: "Managing Director", image: bhumiImg },
-  { name: "Ayush Shukla", role: "Technical Director", image: ayushImg },
+  { name: "Bhumi Changlani", role: "Managing Director", image: bhumiImg }
 ];
 
 export const Team = () => {
