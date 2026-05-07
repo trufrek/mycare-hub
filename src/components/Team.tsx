@@ -3,13 +3,13 @@ import { Linkedin } from "lucide-react";
 import mainakImg from "@/assets/team-mainak.png";
 import mandarImg from "@/assets/team-mandar.png";
 import bhumiImg from "@/assets/team-bhumi.png";
-import ayushImg from "@/assets/team-ayush.png";
+import kaushalImg from "@/assets/team-kaushal.png";
 
 const team = [
   { name: "Mainak Chakraborty", role: "Founder & CEO", image: mainakImg },
   { name: "Mandar Magar", role: "Co-Founder", image: mandarImg },
   { name: "Bhumi Changlani", role: "Managing Director", image: bhumiImg },
-  { name: "Kaushlendra Mawai", role: "Relationship manager", image: ayushImg }
+  { name: "Kaushlendra Mawai", role: "Relationship manager", image: kaushalImg }
 ];
 
 export const Team = () => {
