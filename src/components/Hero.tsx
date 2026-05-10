@@ -2,13 +2,24 @@ import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import quickPharmaLogo from "@/assets/quickpharma-logo.png";
+import heroMotion from "@/assets/hero-motion.mp4.asset.json";
 
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+      {/* Background motion video */}
+      <video
+        src={heroMotion.url}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
+      />
       {/* Mesh background */}
-      <div className="absolute inset-0 bg-mesh" />
-      <div className="absolute inset-0 bg-gradient-soft opacity-60" />
+      <div className="absolute inset-0 bg-mesh opacity-70" />
+      <div className="absolute inset-0 bg-gradient-soft opacity-50" />
+      <div className="absolute inset-0 bg-background/30" />
 
       {/* Floating orbs */}
       <motion.div
